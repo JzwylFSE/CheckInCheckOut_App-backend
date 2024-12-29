@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>API Root</h1>
+    <ul>
+        <li><a href="{% url 'users' %}">Users</a></li>
+        <li><a href="{% url 'activities' %}">Activities</a></li>
+    </ul>
+{% endblock %}
